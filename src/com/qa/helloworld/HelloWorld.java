@@ -4,15 +4,23 @@ package com.qa.helloworld;
 public class HelloWorld {
 	
 	public static int id;
+	public static String msg = "Hello World";
 	
 	
 	// Method has a scope
 	public static void main(String [] args) {
-		String exampleVar = "Hello World";
+		//String exampleVar = "Hello World";
 		
-		System.out.println(exampleVar);
+		WelcomeMsg();
+		
+		System.out.println(msg);
 	}
 	
+	//Bonus Task
+	public static void WelcomeMsg() { 
+		System.out.println("Hello World");
+		
+	}
 	
 }
 
