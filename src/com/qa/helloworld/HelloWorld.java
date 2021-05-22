@@ -8,7 +8,8 @@ public class HelloWorld {
 	
 	
 	// Method has a scope
-	public static void main(String [] args) {
+	public static void main(String [] args) { // special method of class, first thing a Java application will look..
+		//for reference to execute. 
 		//String exampleVar = "Hello World";
 		
 		WelcomeMsg();//-first System operand 
@@ -18,8 +19,9 @@ public class HelloWorld {
 	
 	//Bonus Task
 	public static void WelcomeMsg() { // Second System operand
-		System.out.println("Hello World"); // has two system operands, which printed out two "Hello World" in the console.
-		
+		System.out.println("Method-Hello World"); // has two system operands, which printed out two "Hello World" in the console.
+		System.out.println("Method-Hello World");
+		System.out.println("Method-Hello World");
 	}
 	
 }
