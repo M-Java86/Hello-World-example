@@ -11,14 +11,14 @@ public class HelloWorld {
 	public static void main(String [] args) {
 		//String exampleVar = "Hello World";
 		
-		WelcomeMsg();
+		WelcomeMsg();//-first System operand 
 		
 		System.out.println(msg);
 	}
 	
 	//Bonus Task
-	public static void WelcomeMsg() { 
-		System.out.println("Hello World");
+	public static void WelcomeMsg() { // Second System operand
+		System.out.println("Hello World"); // has two system operands, which printed out two "Hello World" in the console.
 		
 	}
 	
