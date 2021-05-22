@@ -27,7 +27,7 @@ public class HelloWorld { // A class simply describes attributes or functionalit
 
 		int result;
 
-		result = add(3, 9);
+		result = add(3, 7);
 
 		System.out.println(result);
 
